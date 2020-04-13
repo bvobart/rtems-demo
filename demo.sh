@@ -22,16 +22,16 @@ function help {
   echo -n "--> "
 }
 
-echo "#------------------------------------------------#"
-echo "#   Welcome to this interactive demo of RTEMS!   #"
-echo "#------------------------------------------------#"
-echo "# Created by Bart van Oort and Jasper van Esveld #"
-echo "# for the RTOS Survey of Real-Time Systems 2020  #"
-echo "# as taught by Mitra Nasri at the TU Delft       #"
-echo "#------------------------------------------------#"
-echo "# For the source code of this demo, see the      #"
-echo "# folders around this script, or check our Git   #"
-echo "# repository: TODO ADD LINK                      #"
+echo "#---------------------------------------------------#"
+echo "#     Welcome to this interactive demo of RTEMS!    #"
+echo "#---------------------------------------------------#"
+echo "# Created by Bart van Oort and Jasper van Esveld    #"
+echo "# for the RTOS Survey of Real-Time Systems 2020     #"
+echo "# as taught by Mitra Nasri at the TU Delft          #"
+echo "#---------------------------------------------------#"
+echo "# For the source code of this demo, see the         #"
+echo "# folders around this script, or check our Git      #"
+echo "# repository: https://github.com/bvobart/rtems-demo #"
 
 while :
 do
