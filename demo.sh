@@ -5,11 +5,11 @@ function demo_classic_api {
 }
 
 function demo_rm_manager {
-  echo "Not yet implemented"
+  ./rm-manager/run.sh
 }
 
 function demo_cbs {
-  echo "Not yet implemented"
+  ./cbs/run.sh
 }
 
 function help {

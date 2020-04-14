@@ -24,6 +24,12 @@ COPY . .
 # Pre-compile all examples
 RUN cd classic-api \
   && waf configure --rtems=$PREFIX --rtems-tools=$PREFIX --rtems-bsps=sparc/erc32 \
+  && waf \
+  && cd ../rm-manager \
+  && waf configure --rtems=$PREFIX --rtems-tools=$PREFIX --rtems-bsps=sparc/erc32 \
+  && waf \
+  && cd ../cbs \
+  && waf configure --rtems=$PREFIX --rtems-tools=$PREFIX --rtems-bsps=sparc/erc32 \
   && waf
 
 EXPOSE 22
