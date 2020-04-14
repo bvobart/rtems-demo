@@ -33,6 +33,11 @@ echo "# For the source code of this demo, see the         #"
 echo "# folders around this script, or check our Git      #"
 echo "# repository: https://github.com/bvobart/rtems-demo #"
 
+while [ ! -t 0 ]; do
+  echo "-> Not interactive, sleeping"
+  sleep 600
+done 
+
 while :
 do
   help
